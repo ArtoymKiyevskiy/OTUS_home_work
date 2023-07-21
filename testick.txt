@@ -1,0 +1,57 @@
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+import java.util.Scanner;
+
+public class testick {
+    public static void main(String[]args){
+        int ball=0;
+        Scanner scn=new Scanner(System.in);
+        //###Первый вопрос###
+        System.out.println("У какого легиона примарх имел железные руки?");
+        System.out.println("1)Железные воины");
+        System.out.println("2)Гвардия смерти");
+        System.out.println("3)Железные руки");
+        System.out.println("4)Дети императора");
+        int x=scn.nextInt();
+        if(x==3){
+            ball+=1;
+        }
+        //###Второй вопрос###
+        System.out.println("Кто из примархов был подобен ангелу");
+        System.out.println("1)Мортарион");
+        System.out.println("2)Сангвиний");
+        System.out.println("3)Пертурабо");
+        System.out.println("4)Аврелий");
+        x=scn.nextInt();
+        if(x==2){
+            ball+=1;
+        }
+        //###Третий вопрос###
+        System.out.println("Какой легион остался лоялен Империуму, после событий Ереси Хоруса");
+        System.out.println("1)Железные воины");
+        System.out.println("2)Гвардия смерти");
+        System.out.println("3)Железные руки");
+        System.out.println("4)Дети императора");
+        x=scn.nextInt();
+        if(x==3){
+            ball+=1;
+        }
+        //###Четвертрый вопрос###
+        System.out.println("Бог заговоров и обмана");
+        System.out.println("1)Кхорн");
+        System.out.println("2)Тзинч");
+        System.out.println("3)Слаанеш");
+        System.out.println("4)Нургл");
+        x=scn.nextInt();
+        if(x==2){
+            ball+=1;
+        }
+        //###
+        System.out.println("Молодец, вы получили "+ball+" баллов");
+        System.out.println("Феррус Манус примарх легиона Железных рук, имел железные руки");
+        System.out.println("Сангивиний имел крылья и мог летать");
+        System.out.println("Железные руки, потеряв своего примарха остались верны империуму");
+        System.out.println("Тзинч бог хаоса, который играет с судьбами людей, переворачивать с " +
+                "ног на голову, лгать и сеять смуту это его работа");
+        System.out.println("Спасибо, что прошли тестирование, еще что-нибудь покажем вам");
+    }
+}
